@@ -27,8 +27,6 @@ function calcProfitAndLoss(buyingPrice, numOfStocks, currentPrice) {
     
     var profit = (currentPrice - buyingPrice) * numOfStocks; 
     var profiPercent = ((profit/(buyingPrice*numOfStocks))*100).toFixed(2);
- 
-
 
     message(`Yay, you made a profit of ${profit} and that is ${profiPercent}% profit`);
 
